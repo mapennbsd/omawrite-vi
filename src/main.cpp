@@ -15,8 +15,8 @@
 
 int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
-    app.setApplicationName(QStringLiteral("omawrite"));
-    app.setDesktopFileName(QStringLiteral("omawrite"));
+    app.setApplicationName(QStringLiteral("omawrite-vi"));
+    app.setDesktopFileName(QStringLiteral("omawrite-vi"));
     app.setWindowIcon(QIcon::fromTheme(QStringLiteral("omawrite")));
 
     QFontDatabase::addApplicationFont(QStringLiteral(":/fonts/iAWriterMonoS-Regular.ttf"));
